@@ -1,0 +1,43 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*O navegador tentará aplicar a 1° fonte, caso não encontre selecionará a 2° e assim por diante*/
+
+    background-color: #fcfcf5; /*Determina a cor do fundo - pode ser em hexadecimal */
+
+    margin: 50px;
+    margin-top: 20px;
+
+    /*
+    border-color: black;
+    border-style: solid;
+    border-width: 1px; 
+    /*Opções para apresentação de borda*/
+
+}
+
+
+h1 {
+    color: #083fa6; /*Determina a cor da fonte */
+    /*background-color: lightgoldenrodyellow; /*Determina a cor do fundo - pode ser em hexadecimal */
+
+    text-align: center; /* Pode ser right, left, justify, center */
+
+    background-image: url(../Assets/sobre-background.jpg);
+
+}
+
+p {
+    /* line-height: 30px; /* tamanho da altura de cada linha */
+    /* letter-spacing: 3px; /* tamanho do espaço entre cada letra */
+    /* word-spacing: 20px; /* tamanho do espaço entre cada palavra */
+
+    text-indent: 30px; /* Margem da primeira linha do texto */
+}
+
+figcaption {
+
+    font-style: italic;
+}
+    
