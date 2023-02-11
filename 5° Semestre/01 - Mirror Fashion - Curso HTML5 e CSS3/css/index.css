@@ -1,0 +1,74 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 940px;
+
+    color: #333333;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+
+h1 {
+    padding: 10px;
+    background-image: url(../Assets/sobre-background.jpg);
+}
+
+h2 {
+    margin-top: 30px;
+    border-bottom: 2px solid #333333;
+}
+
+p {
+    padding: 0 45px;
+    text-indent: 15px;
+}
+
+figure {
+    padding: 15px;
+    margin: 30px;
+
+    border: 1px solid #ccc;
+    /*#3366FF pode ser siplificado como #36F*/
+    background-color: #F2EDED;
+    text-align: center;
+
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+#centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img {
+
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+@media screen and (max-width: 970px) {
+    body {
+        width: auto;
+        padding: 0px 10px;
+    }
+
+}
