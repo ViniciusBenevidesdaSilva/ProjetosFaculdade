@@ -1,74 +1,52 @@
+
 body {
-    margin-left: auto;
-    margin-right: auto;
+    color: #333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 
+header {
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
     width: 940px;
-
-    color: #333333;
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
+    
 
-h1 {
-    padding: 10px;
-    background-image: url(../Assets/sobre-background.jpg);
+.sacola {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background: url(../Assets/sacola.png) no-repeat top right;
+
+    
+    padding-right: 35px;
+    padding-top: 8px;
+
+    font-size:  14px;
+    text-align: right;
+    width: 140px;
 }
 
-h2 {
-    margin-top: 30px;
-    border-bottom: 2px solid #333333;
+.menu-opcoes {
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
 }
 
-p {
-    padding: 0 45px;
-    text-indent: 15px;
+.menu-opcoes ul {
+    font-size: 15px;
 }
 
-figure {
-    padding: 15px;
-    margin: 30px;
-
-    border: 1px solid #ccc;
-    /*#3366FF pode ser siplificado como #36F*/
-    background-color: #F2EDED;
-    text-align: center;
-
+.menu-opcoes li {
+    display: inline;
+    margin-left: 20px;
 }
 
-figcaption {
-    margin-top: 10px;
-    font-style: italic;
-}
-
-
-#centro-distribuicao {
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
-}
-
-#rodape {
-    color: #777;
-    margin: 30px 0;
-    padding: 30px 0;
-}
-
-#rodape img {
-
-    margin-right: 30px;
-    vertical-align: middle;
-    width: 94px;
-}
-
-#familia-pelho {
-    float: right;
-    margin: 0 0 10px 10px;
-}
-
-@media screen and (max-width: 970px) {
-    body {
-        width: auto;
-        padding: 0px 10px;
-    }
-
+.menu-opcoes a {
+    color: #036;
 }

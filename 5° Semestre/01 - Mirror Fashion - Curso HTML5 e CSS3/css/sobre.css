@@ -1,18 +1,18 @@
 
+/* ---------    Gerais  --------- */
 body {
     margin-left: auto;
     margin-right: auto;
 
     width: 940px;
 
-    color: #333333;
+    color: #333;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
 
-h1 {
-    padding: 10px;
-    background-image: url(../Assets/sobre-background.jpg);
+header {
+    position: relative;
 }
 
 h2 {
@@ -41,6 +41,12 @@ figcaption {
     font-style: italic;
 }
 
+/* ---------    Ids     --------- */
+#title {
+    padding: 10px;
+    background-image: url(../Assets/sobre-background.jpg);
+}
+
 
 #centro-distribuicao {
     margin-left: auto;
@@ -64,6 +70,56 @@ figcaption {
     float: right;
     margin: 0 0 10px 10px;
 }
+
+
+/* ---------   Class    --------- */
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+    
+
+.sacola {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background: url(../Assets/sacola.png) no-repeat top right;
+
+    
+    padding-right: 35px;
+    padding-top: 8px;
+
+    font-size:  14px;
+    text-align: right;
+    width: 140px;
+}
+
+.menu-opcoes {
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes a {
+    color: #036;
+}
+
+
+/* ---------   media    --------- */
+
 
 @media screen and (max-width: 970px) {
     body {
