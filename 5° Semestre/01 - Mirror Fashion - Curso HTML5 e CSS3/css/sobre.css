@@ -4,8 +4,6 @@ body {
     margin-left: auto;
     margin-right: auto;
 
-    width: 940px;
-
     color: #333;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
@@ -117,12 +115,62 @@ figcaption {
     color: #036;
 }
 
+/* ----------   footer  ---------- */
+
+footer {
+    background-image: url(../Assets/fundo-rodape.png);
+
+    clear: both;
+
+    padding: 20px 0px;
+}
+
+footer .container {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+    
+.social li a {
+    /*Tamanho da imagem*/
+    height: 32px;
+    width: 32px;
+
+    /*Image Replacement*/
+    display: block;
+    text-indent: -9999px;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+    
+
+.social a[href*="facebook.com"] {
+    background-image: url(../Assets/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+    background-image: url(../Assets/twitter.png);
+}
+
+
+.social a[href*="plus.google.com"] {
+    background-image: url(../Assets/googleplus.png);
+}
+
+
 
 /* ---------   media    --------- */
 
 
 @media screen and (max-width: 970px) {
-    body {
+    .container {
         width: auto;
         padding: 0px 10px;
     }
