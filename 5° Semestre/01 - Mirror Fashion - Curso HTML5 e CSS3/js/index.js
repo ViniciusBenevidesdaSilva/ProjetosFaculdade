@@ -92,3 +92,23 @@ btnPause.onclick = function () {
 
 
 //#endregion Banner Rotativo
+
+
+
+
+//#region Imagens Novidades
+
+var imgs = document.querySelectorAll('.img-produtos');
+var indices = Array.from(Array(15).keys()).map(i => i + 1);
+
+console.log(indices);
+
+imgs.forEach(element => {
+    var rnd = Math.floor(Math.random() * indices.length);
+    var numero = indices.splice(rnd, 1);
+
+    element.src = "Assets/produtos/miniatura" + numero + ".png";
+});
+
+
+//#endregion Imagens Novidades
