@@ -1,0 +1,10 @@
+Z:\EC4 - Linguagem de Programacao\Aula 02 - Comunicacao Banco de Dados\ConexaoBD\ConexaoBD\bin\Debug\ConexaoBD.exe.config
+Z:\EC4 - Linguagem de Programacao\Aula 02 - Comunicacao Banco de Dados\ConexaoBD\ConexaoBD\bin\Debug\ConexaoBD.exe
+Z:\EC4 - Linguagem de Programacao\Aula 02 - Comunicacao Banco de Dados\ConexaoBD\ConexaoBD\bin\Debug\ConexaoBD.pdb
+Z:\EC4 - Linguagem de Programacao\Aula 02 - Comunicacao Banco de Dados\ConexaoBD\ConexaoBD\obj\Debug\ConexaoBD.csproj.AssemblyReference.cache
+Z:\EC4 - Linguagem de Programacao\Aula 02 - Comunicacao Banco de Dados\ConexaoBD\ConexaoBD\obj\Debug\ConexaoBD.Properties.Resources.resources
+Z:\EC4 - Linguagem de Programacao\Aula 02 - Comunicacao Banco de Dados\ConexaoBD\ConexaoBD\obj\Debug\ConexaoBD.csproj.GenerateResource.cache
+Z:\EC4 - Linguagem de Programacao\Aula 02 - Comunicacao Banco de Dados\ConexaoBD\ConexaoBD\obj\Debug\ConexaoBD.csproj.CoreCompileInputs.cache
+Z:\EC4 - Linguagem de Programacao\Aula 02 - Comunicacao Banco de Dados\ConexaoBD\ConexaoBD\obj\Debug\ConexaoBD.exe
+Z:\EC4 - Linguagem de Programacao\Aula 02 - Comunicacao Banco de Dados\ConexaoBD\ConexaoBD\obj\Debug\ConexaoBD.pdb
+Z:\EC4 - Linguagem de Programacao\Aula 02 - Comunicacao Banco de Dados\ConexaoBD\ConexaoBD\obj\Debug\ConexaoBD.Home.resources

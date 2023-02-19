@@ -46,36 +46,81 @@
         <section class="busca">
             <h2>Busca</h2>
 
-            <form>
-                <input type="search">
+            <form id="form-busca" action="http://www.google.com.br/search">
+                <input id="q" type="search" name="q">
                 <input type="image" src="Assets/busca.png">
             </form>
         </section> <!--Fim Busca-->
-
 
         <section class="menu-departamentos">
             <h2>Departamentos</h2>
 
             <nav>
                 <ul>
-                    <li><a href="#">Blusas e Camisas</a></li>
-                    <li><a href="#">Calças</a></li>
-                    <li><a href="#">Saias</a></li>
-                    <li><a href="#">Vestidos</a></li>
-                    <li><a href="#">Sapatos</a></li>
-                    <li><a href="#">Bolsas e Carteiras</a></li>
-                    <li><a href="#">Acessórios</a></li>
+                    <li><a href="#">Blusas e Camisas</a>
+                        <ul>
+                            <li><a href="#">Manga curta</a></li>
+                            <li><a href="#">Manga comprida</a></li>
+                            <li><a href="#">Camisa social</a></li>
+                            <li><a href="#">Camisa casual</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Calças</a>
+                        <ul>
+                            <li><a href="#">Calça Jogger</a></li>
+                            <li><a href="#">Calça Skinny</a></li>
+                            <li><a href="#">Calça Social</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Saias</a>
+                        <ul>
+                            <li><a href="#">Saia Plissada</a></li>
+                            <li><a href="#">Saia Longa</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Vestidos</a>
+                        <ul>
+                            <li><a href="#">Vestido social</a></li>
+                            <li><a href="#">Vestido decotado</a></li>
+                            <li><a href="#">Vestido rodado</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Sapatos</a>
+                        <ul>
+                            <li><a href="#">Bota</a></li>
+                            <li><a href="#">Coturno</a></li>
+                            <li><a href="#">Mocassim</a></li>
+                            <li><a href="#">Sapatilha</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Bolsas e Carteiras</a>
+                        <ul>
+                            <li><a href="#">Bolsa sacola</a></li>
+                            <li><a href="#">Bolsa transversal</a></li>
+                            <li><a href="#">Bolsa redonda</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Acessórios</a>
+                        <ul>
+                            <li><a href="#">Brincos</a></li>
+                            <li><a href="#">Anéis</a></li>
+                            <li><a href="#">Colares</a></li>
+                            <li><a href="#">Chapéus</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
 
         </section> <!--Fim Menu Departamentos-->
 
-        <img src="Assets/destaque-home.png" alt="Promoção: Big City Night">
+        <a href="#" class="pause"></a>
+        <img id="img-destaque" src="Assets/destaque-home.png" alt="Promoção: Big City Night">
 
     </div> <!--Fim Container Destaque-->
 
 
-    
+
     <div class="container paineis">
         <!-- os paineis de novidades e mais vendidos entrarão aqui dentro -->
 
@@ -88,7 +133,7 @@
                     <a href="produto.html">
                         <figure>
                             <img src="Assets/produtos/miniatura1.png" alt="Produto destaque 1">
-                            <figcaption>Fuzz Cardigan por<br/>R$ 129,90</figcaption>
+                            <figcaption>Fuzz Cardigan por<br />R$ 129,90</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -97,7 +142,7 @@
                     <a href="produto.html">
                         <figure>
                             <img src="Assets/produtos/miniatura2.png" alt="Produto destaque 1">
-                            <figcaption>Lorem ipsum por<br/>R$ 44,90</figcaption>
+                            <figcaption>Lorem ipsum por<br />R$ 44,90</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -106,7 +151,7 @@
                     <a href="produto.html">
                         <figure>
                             <img src="Assets/produtos/miniatura3.png" alt="Produto destaque 1">
-                            <figcaption>Dolor sit por<br/>R$ 109,90</figcaption>
+                            <figcaption>Dolor sit por<br />R$ 109,90</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -115,7 +160,7 @@
                     <a href="produto.html">
                         <figure>
                             <img src="Assets/produtos/miniatura4.png" alt="Produto destaque 1">
-                            <figcaption>Sed laciniapor<br/>R$ 249,90</figcaption>
+                            <figcaption>Sed laciniapor<br />R$ 249,90</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -125,7 +170,7 @@
                     <a href="produto.html">
                         <figure>
                             <img src="Assets/produtos/miniatura5.png" alt="Produto destaque 1">
-                            <figcaption>Nunc faucibus<br/>por R$ 19,90</figcaption>
+                            <figcaption>Nunc faucibus<br />por R$ 19,90</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -135,7 +180,7 @@
                     <a href="produto.html">
                         <figure>
                             <img src="Assets/produtos/miniatura6.png" alt="Produto destaque 1">
-                            <figcaption>Quisque por<br/>R$ 19,90</figcaption>
+                            <figcaption>Quisque por<br />R$ 19,90</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -151,7 +196,7 @@
                     <a href="produto.html">
                         <figure>
                             <img src="Assets/produtos/miniatura7.png" alt="Produto destaque 1">
-                            <figcaption>Feugiat urna por<br/>R$ 69,90</figcaption>
+                            <figcaption>Feugiat urna por<br />R$ 69,90</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -160,7 +205,7 @@
                     <a href="produto.html">
                         <figure>
                             <img src="Assets/produtos/miniatura8.png" alt="Produto destaque 1">
-                            <figcaption>Suspendisse por<br/>R$ 59,90</figcaption>
+                            <figcaption>Suspendisse por<br />R$ 59,90</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -169,7 +214,7 @@
                     <a href="produto.html">
                         <figure>
                             <img src="Assets/produtos/miniatura9.png" alt="Produto destaque 1">
-                            <figcaption>Nam egestas por<br/>R$ 149,90</figcaption>
+                            <figcaption>Nam egestas por<br />R$ 149,90</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -178,7 +223,7 @@
                     <a href="produto.html">
                         <figure>
                             <img src="Assets/produtos/miniatura10.png" alt="Produto destaque 1">
-                            <figcaption>Etiam interdum por<br/>R$ 89,90</figcaption>
+                            <figcaption>Etiam interdum por<br />R$ 89,90</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -188,7 +233,7 @@
                     <a href="produto.html">
                         <figure>
                             <img src="Assets/produtos/miniatura11.png" alt="Produto destaque 1">
-                            <figcaption>Integer por<br/>R$ 99,90</figcaption>
+                            <figcaption>Integer por<br />R$ 99,90</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -198,7 +243,7 @@
                     <a href="produto.html">
                         <figure>
                             <img src="Assets/produtos/miniatura12.png" alt="Produto destaque 1">
-                            <figcaption>Nulla facilisi por<br/>R$ 79,90</figcaption>
+                            <figcaption>Nulla facilisi por<br />R$ 79,90</figcaption>
                         </figure>
                     </a>
                 </li>
@@ -220,6 +265,9 @@
 
     </footer>
 
+
+
+    <script src="js/index.js"></script>
 
 </body>
 
