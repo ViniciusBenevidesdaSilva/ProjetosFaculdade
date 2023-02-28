@@ -1,0 +1,10 @@
+F:\Projetos Faculdade\5° Semestre\01 - Exercicios\Ex4_1\Ex4_1\bin\Debug\Ex4_1.exe.config
+F:\Projetos Faculdade\5° Semestre\01 - Exercicios\Ex4_1\Ex4_1\bin\Debug\Ex4_1.exe
+F:\Projetos Faculdade\5° Semestre\01 - Exercicios\Ex4_1\Ex4_1\bin\Debug\Ex4_1.pdb
+F:\Projetos Faculdade\5° Semestre\01 - Exercicios\Ex4_1\Ex4_1\obj\Debug\Ex4_1.csproj.AssemblyReference.cache
+F:\Projetos Faculdade\5° Semestre\01 - Exercicios\Ex4_1\Ex4_1\obj\Debug\Ex4_1.Form1.resources
+F:\Projetos Faculdade\5° Semestre\01 - Exercicios\Ex4_1\Ex4_1\obj\Debug\Ex4_1.Properties.Resources.resources
+F:\Projetos Faculdade\5° Semestre\01 - Exercicios\Ex4_1\Ex4_1\obj\Debug\Ex4_1.csproj.GenerateResource.cache
+F:\Projetos Faculdade\5° Semestre\01 - Exercicios\Ex4_1\Ex4_1\obj\Debug\Ex4_1.csproj.CoreCompileInputs.cache
+F:\Projetos Faculdade\5° Semestre\01 - Exercicios\Ex4_1\Ex4_1\obj\Debug\Ex4_1.exe
+F:\Projetos Faculdade\5° Semestre\01 - Exercicios\Ex4_1\Ex4_1\obj\Debug\Ex4_1.pdb

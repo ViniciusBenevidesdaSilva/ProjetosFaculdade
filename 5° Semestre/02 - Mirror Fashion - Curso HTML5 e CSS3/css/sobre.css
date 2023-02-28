@@ -1,0 +1,198 @@
+
+/* ---------    Gerais  --------- */
+body {
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #333;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+
+header {
+    position: relative;
+}
+
+h2 {
+    margin-top: 30px;
+    border-bottom: 2px solid #333333;
+}
+
+p {
+    padding: 0 45px;
+    text-indent: 15px;
+}
+
+figure {
+    padding: 15px;
+    margin: 30px;
+
+    border: 1px solid #ccc;
+    /*#3366FF pode ser siplificado como #36F*/
+    background-color: #F2EDED;
+    text-align: center;
+
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* ---------    Ids     --------- */
+#title {
+    padding: 10px;
+    background-image: url(../Assets/sobre-background.jpg);
+}
+
+
+#centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+
+/* ---------   Class    --------- */
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+    
+
+.sacola {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background: url(../Assets/sacola.png) no-repeat top right;
+
+    
+    padding-right: 35px;
+    padding-top: 8px;
+
+    font-size:  14px;
+    text-align: right;
+    width: 140px;
+}
+
+.menu-opcoes {
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes a {
+    color: #036;
+}
+
+.menu-opcoes a:hover {
+    color:#a100a1;
+}
+
+.menu-opcoes a:active {
+    color:#867dc6;
+}
+
+
+/* ----------   footer  ---------- */
+
+footer {
+    background-image: url(../Assets/fundo-rodape.png);
+
+    clear: both;
+
+    padding: 20px 0px;
+}
+
+footer .container {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+    
+.social li a {
+    /*Tamanho da imagem*/
+    height: 32px;
+    width: 32px;
+
+    /*Image Replacement*/
+    display: block;
+    text-indent: -9999px;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+    
+
+.social a[href*="facebook.com"] {
+    background-image: url(../Assets/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+    background-image: url(../Assets/twitter.png);
+}
+
+
+.social a[href*="plus.google.com"] {
+    background-image: url(../Assets/googleplus.png);
+}
+
+/* ---------   p    --------- */
+
+.text p:first-letter {
+    font-weight: bold;
+}
+
+h1 + p {
+    text-indent: 0;
+}
+
+:not(p) + p:first-line {
+    font-variant: small-caps;
+}
+
+/* ---------   media    --------- */
+
+@media screen and (max-width: 970px) {
+    .container {
+        width: auto;
+        padding: 0px 10px;
+    }
+
+}
